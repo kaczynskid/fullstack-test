@@ -1,19 +1,19 @@
 import React, {useEffect, useState} from "react"
 
 /**
- * This component should show the users
+ * This component should show some information about a Star Wars character.
  * @returns {*}
  * @constructor
  */
 const MyComponent = () => {
-    const [ip, setIp] = useState("0.0.0.0");
+    const [name, setName] = useState("Luke");
     useEffect(() => {
         //Call spring back-end
-        setIp("0.0.0.0")
+        setName("Luke")
     }, []);
 
     return <div>
-        {ip}
+        Name: {name}
     </div>
 };
 
