@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: "star-wars-wiki"
+
+swapi:
+  base-url: "https://swapi.co/api"

@@ -1,0 +1,30 @@
+{
+  "id" : "0b4b6820-e149-42b4-8db6-2f76557f4ded",
+  "name" : "api_planets_8",
+  "request" : {
+    "url" : "/api/planets/8/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Naboo\",\"rotation_period\":\"26\",\"orbital_period\":\"312\",\"diameter\":\"12120\",\"climate\":\"temperate\",\"gravity\":\"1 standard\",\"terrain\":\"grassy hills, swamps, forests, mountains\",\"surface_water\":\"12\",\"population\":\"4500000000\",\"residents\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/3/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/21/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/36/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/37/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/38/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/39/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/42/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/60/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/61/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/66/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/35/\"],\"films\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/5/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/4/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/6/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/3/\"],\"created\":\"2014-12-10T11:52:31.066000Z\",\"edited\":\"2014-12-20T20:58:18.430000Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/planets/8/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:25:11 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=d5a71a864afff242b61d03d9c1c7e97071569101111; expires=Sun, 20-Sep-20 21:25:11 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"f8f2687be861f8c135eff58cee04cb53\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f1c39fc6ed10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "0b4b6820-e149-42b4-8db6-2f76557f4ded",
+  "persistent" : true,
+  "insertionIndex" : 50
+}

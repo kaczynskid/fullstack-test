@@ -1,0 +1,30 @@
+{
+  "id" : "cd8822aa-30e6-4e6c-b35d-cda4485af3ca",
+  "name" : "api_planets_22",
+  "request" : {
+    "url" : "/api/planets/22/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Corellia\",\"rotation_period\":\"25\",\"orbital_period\":\"329\",\"diameter\":\"11000\",\"climate\":\"temperate\",\"gravity\":\"1 standard\",\"terrain\":\"plains, urban, hills, forests\",\"surface_water\":\"70\",\"population\":\"3000000000\",\"residents\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/14/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/18/\"],\"films\":[],\"created\":\"2014-12-10T16:49:12.453000Z\",\"edited\":\"2014-12-20T20:58:18.456000Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/planets/22/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:29:58 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=d6f3fc1cecd638e7094f2da390ad1d6b01569101397; expires=Sun, 20-Sep-20 21:29:57 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"0220b2d113bd6a17c8dcab4fd087c588\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f233969bed10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "cd8822aa-30e6-4e6c-b35d-cda4485af3ca",
+  "persistent" : true,
+  "insertionIndex" : 45
+}

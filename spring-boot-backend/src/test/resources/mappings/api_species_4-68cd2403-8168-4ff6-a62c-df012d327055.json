@@ -1,0 +1,30 @@
+{
+  "id" : "68cd2403-8168-4ff6-a62c-df012d327055",
+  "name" : "api_species_4",
+  "request" : {
+    "url" : "/api/species/4/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Rodian\",\"classification\":\"sentient\",\"designation\":\"reptilian\",\"average_height\":\"170\",\"skin_colors\":\"green, blue\",\"hair_colors\":\"n/a\",\"eye_colors\":\"black\",\"average_lifespan\":\"unknown\",\"homeworld\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/planets/23/\",\"language\":\"Galactic Basic\",\"people\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/15/\"],\"films\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/1/\"],\"created\":\"2014-12-10T17:05:26.471000Z\",\"edited\":\"2016-07-19T13:27:03.156498Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/species/4/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:30:21 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=d2a5bfb520b9f26070a69539f658e94831569101421; expires=Sun, 20-Sep-20 21:30:21 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"b6a01b224314b9030c34ec13ff78f11a\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f23c98c8ed10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "68cd2403-8168-4ff6-a62c-df012d327055",
+  "persistent" : true,
+  "insertionIndex" : 54
+}

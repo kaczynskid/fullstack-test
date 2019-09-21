@@ -1,0 +1,5 @@
+org.springframework.context.ApplicationListener=\
+  com.instantor.dap.springbootbackend.redis.EmbeddedRedisApplicationListener
+
+com.ifds.kea.api.common.test.redis.AutoConfigureEmbeddedRedis=\
+  com.instantor.dap.springbootbackend.redis.EmbeddedRedisAutoConfiguration

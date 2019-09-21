@@ -1,0 +1,30 @@
+{
+  "id" : "f1009bc4-72b7-488a-aaa1-e76f19378f6e",
+  "name" : "api_planets_1",
+  "request" : {
+    "url" : "/api/planets/1/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Tatooine\",\"rotation_period\":\"23\",\"orbital_period\":\"304\",\"diameter\":\"10465\",\"climate\":\"arid\",\"gravity\":\"1 standard\",\"terrain\":\"desert\",\"surface_water\":\"1\",\"population\":\"200000\",\"residents\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/1/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/2/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/4/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/6/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/7/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/8/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/9/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/11/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/43/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/62/\"],\"films\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/5/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/4/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/6/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/3/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/1/\"],\"created\":\"2014-12-09T13:50:49.641000Z\",\"edited\":\"2014-12-21T20:48:04.175778Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/planets/1/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:24:09 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=d832be4e62a457cc0bea43754bb23db2f1569101048; expires=Sun, 20-Sep-20 21:24:08 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"efed956425417bc79e33fa9e2d32d901\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f1ab18be8d10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "f1009bc4-72b7-488a-aaa1-e76f19378f6e",
+  "persistent" : true,
+  "insertionIndex" : 40
+}

@@ -1,0 +1,30 @@
+{
+  "id" : "fcb382e9-a2ca-45ce-8e5f-f3fc6a8dd880",
+  "name" : "api_planets_20",
+  "request" : {
+    "url" : "/api/planets/20/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Stewjon\",\"rotation_period\":\"unknown\",\"orbital_period\":\"unknown\",\"diameter\":\"0\",\"climate\":\"temperate\",\"gravity\":\"1 standard\",\"terrain\":\"grass\",\"surface_water\":\"unknown\",\"population\":\"unknown\",\"residents\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/10/\"],\"films\":[],\"created\":\"2014-12-10T16:16:26.566000Z\",\"edited\":\"2014-12-20T20:58:18.452000Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/planets/20/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:26:16 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=dc15372459b36b0582652dd2ac64d99001569101175; expires=Sun, 20-Sep-20 21:26:15 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"42d4eac948ab5387daa9ad897b5ea289\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f1dcd7fa4d10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "fcb382e9-a2ca-45ce-8e5f-f3fc6a8dd880",
+  "persistent" : true,
+  "insertionIndex" : 43
+}

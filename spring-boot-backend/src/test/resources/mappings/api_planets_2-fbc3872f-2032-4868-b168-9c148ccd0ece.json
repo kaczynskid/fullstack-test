@@ -1,0 +1,30 @@
+{
+  "id" : "fbc3872f-2032-4868-b168-9c148ccd0ece",
+  "name" : "api_planets_2",
+  "request" : {
+    "url" : "/api/planets/2/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Alderaan\",\"rotation_period\":\"24\",\"orbital_period\":\"364\",\"diameter\":\"12500\",\"climate\":\"temperate\",\"gravity\":\"1 standard\",\"terrain\":\"grasslands, mountains\",\"surface_water\":\"40\",\"population\":\"2000000000\",\"residents\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/5/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/68/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/81/\"],\"films\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/6/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/1/\"],\"created\":\"2014-12-10T11:35:48.479000Z\",\"edited\":\"2014-12-20T20:58:18.420000Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/planets/2/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:24:13 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=d03042b787aaf153f6730a23c4b7dbdcc1569101052; expires=Sun, 20-Sep-20 21:24:12 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"9bb5b052a5f6df545fee5e4b78edc917\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f1acbba32d10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "fbc3872f-2032-4868-b168-9c148ccd0ece",
+  "persistent" : true,
+  "insertionIndex" : 42
+}

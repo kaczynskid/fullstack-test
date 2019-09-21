@@ -1,0 +1,30 @@
+{
+  "id" : "b1913abf-c7a6-457f-9963-a5e716f777c7",
+  "name" : "api_species_5",
+  "request" : {
+    "url" : "/api/species/5/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Hutt\",\"classification\":\"gastropod\",\"designation\":\"sentient\",\"average_height\":\"300\",\"skin_colors\":\"green, brown, tan\",\"hair_colors\":\"n/a\",\"eye_colors\":\"yellow, red\",\"average_lifespan\":\"1000\",\"homeworld\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/planets/24/\",\"language\":\"Huttese\",\"people\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/16/\"],\"films\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/3/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/1/\"],\"created\":\"2014-12-10T17:12:50.410000Z\",\"edited\":\"2014-12-20T21:36:42.146000Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/species/5/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:30:37 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=d50744adf9457c97ba87c76e1a76be7481569101437; expires=Sun, 20-Sep-20 21:30:37 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"1c8677783fbd1a7302a7f73ac216f3a8\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f242ed91bd10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "b1913abf-c7a6-457f-9963-a5e716f777c7",
+  "persistent" : true,
+  "insertionIndex" : 55
+}

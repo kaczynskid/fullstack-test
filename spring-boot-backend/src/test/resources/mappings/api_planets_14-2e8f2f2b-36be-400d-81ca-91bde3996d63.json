@@ -1,0 +1,30 @@
+{
+  "id" : "2e8f2f2b-36be-400d-81ca-91bde3996d63",
+  "name" : "api_planets_14",
+  "request" : {
+    "url" : "/api/planets/14/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Kashyyyk\",\"rotation_period\":\"26\",\"orbital_period\":\"381\",\"diameter\":\"12765\",\"climate\":\"tropical\",\"gravity\":\"1 standard\",\"terrain\":\"jungle, forests, lakes, rivers\",\"surface_water\":\"60\",\"population\":\"45000000\",\"residents\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/13/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/80/\"],\"films\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/6/\"],\"created\":\"2014-12-10T13:32:00.124000Z\",\"edited\":\"2014-12-20T20:58:18.442000Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/planets/14/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:29:35 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=d044743063a1a69b54323eac6ad8302221569101375; expires=Sun, 20-Sep-20 21:29:35 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"51c0ddbcda33f24ba48c4faf2b681b0f\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f22ab9fa1d10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "2e8f2f2b-36be-400d-81ca-91bde3996d63",
+  "persistent" : true,
+  "insertionIndex" : 41
+}

@@ -1,0 +1,30 @@
+{
+  "id" : "e586144f-f324-4866-8232-53644b7a2124",
+  "name" : "api_planets_21",
+  "request" : {
+    "url" : "/api/planets/21/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Eriadu\",\"rotation_period\":\"24\",\"orbital_period\":\"360\",\"diameter\":\"13490\",\"climate\":\"polluted\",\"gravity\":\"1 standard\",\"terrain\":\"cityscape\",\"surface_water\":\"unknown\",\"population\":\"22000000000\",\"residents\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/12/\"],\"films\":[],\"created\":\"2014-12-10T16:26:54.384000Z\",\"edited\":\"2014-12-20T20:58:18.454000Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/planets/21/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:29:16 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=de887da540670bbb2a5a326614a557ab81569101356; expires=Sun, 20-Sep-20 21:29:16 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"47d8cc0502cd1221ac5910a5993f9eda\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f22334b2bd10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "e586144f-f324-4866-8232-53644b7a2124",
+  "persistent" : true,
+  "insertionIndex" : 44
+}

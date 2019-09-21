@@ -1,18 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import MyComponent from "./components/MyComponent";
+import CharactersList from "./components/CharactersList";
 
 function App() {
-    const showComponent = true;
     return (
         <div className="App">
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo"/>
-                <p>
-                    Edit <code>src/components/MyComponent.jsx</code> and save to reload.
-                </p>
-                {showComponent ? <MyComponent/> : null}
+                <CharactersList />
             </header>
         </div>
     );

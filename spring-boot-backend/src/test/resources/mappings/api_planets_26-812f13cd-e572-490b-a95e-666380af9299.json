@@ -1,0 +1,30 @@
+{
+  "id" : "812f13cd-e572-490b-a95e-666380af9299",
+  "name" : "api_planets_26",
+  "request" : {
+    "url" : "/api/planets/26/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Bestine IV\",\"rotation_period\":\"26\",\"orbital_period\":\"680\",\"diameter\":\"6400\",\"climate\":\"temperate\",\"gravity\":\"unknown\",\"terrain\":\"rocky islands, oceans\",\"surface_water\":\"98\",\"population\":\"62000000\",\"residents\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/19/\"],\"films\":[],\"created\":\"2014-12-12T11:16:55.078000Z\",\"edited\":\"2014-12-20T20:58:18.463000Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/planets/26/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:30:55 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=d2fa2a30008d4fd16e525c0b816ad64f91569101454; expires=Sun, 20-Sep-20 21:30:54 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"920cf5bbe5064047249c0fe0ecee8ed7\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f249afd3cd10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "812f13cd-e572-490b-a95e-666380af9299",
+  "persistent" : true,
+  "insertionIndex" : 48
+}

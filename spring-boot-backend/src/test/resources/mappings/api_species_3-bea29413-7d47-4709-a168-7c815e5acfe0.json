@@ -1,0 +1,30 @@
+{
+  "id" : "bea29413-7d47-4709-a168-7c815e5acfe0",
+  "name" : "api_species_3",
+  "request" : {
+    "url" : "/api/species/3/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Wookiee\",\"classification\":\"mammal\",\"designation\":\"sentient\",\"average_height\":\"210\",\"skin_colors\":\"gray\",\"hair_colors\":\"black, brown\",\"eye_colors\":\"blue, green, yellow, brown, golden, red\",\"average_lifespan\":\"400\",\"homeworld\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/planets/14/\",\"language\":\"Shyriiwook\",\"people\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/13/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/80/\"],\"films\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/2/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/7/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/6/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/3/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/1/\"],\"created\":\"2014-12-10T16:44:31.486000Z\",\"edited\":\"2015-01-30T21:23:03.074598Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/species/3/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:29:48 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=dd715e485c04dfe4dbd07b223c152803e1569101387; expires=Sun, 20-Sep-20 21:29:47 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"ae82400e16c2a6e70e44ef1f201f3197\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f22f77fb7d10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "bea29413-7d47-4709-a168-7c815e5acfe0",
+  "persistent" : true,
+  "insertionIndex" : 53
+}

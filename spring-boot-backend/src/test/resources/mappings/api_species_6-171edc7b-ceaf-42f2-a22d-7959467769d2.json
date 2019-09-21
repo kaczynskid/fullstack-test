@@ -1,0 +1,30 @@
+{
+  "id" : "171edc7b-ceaf-42f2-a22d-7959467769d2",
+  "name" : "api_species_6",
+  "request" : {
+    "url" : "/api/species/6/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Yoda's species\",\"classification\":\"mammal\",\"designation\":\"sentient\",\"average_height\":\"66\",\"skin_colors\":\"green, yellow\",\"hair_colors\":\"brown, white\",\"eye_colors\":\"brown, green, yellow\",\"average_lifespan\":\"900\",\"homeworld\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/planets/28/\",\"language\":\"Galactic basic\",\"people\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/20/\"],\"films\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/2/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/5/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/4/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/6/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/3/\"],\"created\":\"2014-12-15T12:27:22.877000Z\",\"edited\":\"2014-12-20T21:36:42.148000Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/species/6/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:31:18 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=d925b15686d57f2486f6b0c5c7ebe4e9d1569101477; expires=Sun, 20-Sep-20 21:31:17 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"650c8733f664586312304f4da7d95a98\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f252b8a42d10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "171edc7b-ceaf-42f2-a22d-7959467769d2",
+  "persistent" : true,
+  "insertionIndex" : 56
+}

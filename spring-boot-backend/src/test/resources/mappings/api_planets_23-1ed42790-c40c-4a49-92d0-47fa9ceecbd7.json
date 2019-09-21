@@ -1,0 +1,30 @@
+{
+  "id" : "1ed42790-c40c-4a49-92d0-47fa9ceecbd7",
+  "name" : "api_planets_23",
+  "request" : {
+    "url" : "/api/planets/23/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Rodia\",\"rotation_period\":\"29\",\"orbital_period\":\"305\",\"diameter\":\"7549\",\"climate\":\"hot\",\"gravity\":\"1 standard\",\"terrain\":\"jungles, oceans, urban, swamps\",\"surface_water\":\"60\",\"population\":\"1300000000\",\"residents\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/15/\"],\"films\":[],\"created\":\"2014-12-10T17:03:28.110000Z\",\"edited\":\"2014-12-20T20:58:18.458000Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/planets/23/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:30:10 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=da271e2966c4a21fd7d0e46bbd4c1d5de1569101409; expires=Sun, 20-Sep-20 21:30:09 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"ecb142f0e465b702e6d0f0f0149c8e67\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f2383385cd10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "1ed42790-c40c-4a49-92d0-47fa9ceecbd7",
+  "persistent" : true,
+  "insertionIndex" : 46
+}

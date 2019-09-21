@@ -1,0 +1,30 @@
+{
+  "id" : "f0f1f62a-fef7-4e16-94dc-070d0ac1f487",
+  "name" : "api_species_2",
+  "request" : {
+    "url" : "/api/species/2/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Droid\",\"classification\":\"artificial\",\"designation\":\"sentient\",\"average_height\":\"n/a\",\"skin_colors\":\"n/a\",\"hair_colors\":\"n/a\",\"eye_colors\":\"n/a\",\"average_lifespan\":\"indefinite\",\"homeworld\":null,\"language\":\"n/a\",\"people\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/2/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/3/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/8/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/23/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/87/\"],\"films\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/2/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/7/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/5/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/4/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/6/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/3/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/films/1/\"],\"created\":\"2014-12-10T15:16:16.259000Z\",\"edited\":\"2015-04-17T06:59:43.869528Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/species/2/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:26:45 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=d743620fe322aed69e5eadb0c35b9c1491569101205; expires=Sun, 20-Sep-20 21:26:45 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"fc2a9bbeda3c8a34ec813cc3dbcd3115\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f1e8718c3d10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "f0f1f62a-fef7-4e16-94dc-070d0ac1f487",
+  "persistent" : true,
+  "insertionIndex" : 52
+}

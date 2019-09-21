@@ -1,0 +1,30 @@
+{
+  "id" : "d90dc721-591c-4ea9-a5ff-94ed3836fb97",
+  "name" : "api_planets_28",
+  "request" : {
+    "url" : "/api/planets/28/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"unknown\",\"rotation_period\":\"0\",\"orbital_period\":\"0\",\"diameter\":\"0\",\"climate\":\"unknown\",\"gravity\":\"unknown\",\"terrain\":\"unknown\",\"surface_water\":\"unknown\",\"population\":\"unknown\",\"residents\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/20/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/23/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/29/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/32/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/75/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/84/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/85/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/86/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/87/\",\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/88/\"],\"films\":[],\"created\":\"2014-12-15T12:25:59.569000Z\",\"edited\":\"2014-12-20T20:58:18.466000Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/planets/28/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:31:08 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=d6d9bc0f4e4fc5f630e98554514c05f771569101467; expires=Sun, 20-Sep-20 21:31:07 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"867a22dd5c2a90812a7ad6e306d74587\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f24ee1fa5d10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "d90dc721-591c-4ea9-a5ff-94ed3836fb97",
+  "persistent" : true,
+  "insertionIndex" : 49
+}

@@ -1,22 +1,88 @@
-plugins {
-    id 'org.springframework.boot' version '2.1.5.RELEASE'
-    id 'com.google.cloud.tools.jib' version '1.2.0'
-    id 'java'
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.google.guava:guava:${guavaVersion}"
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
+        classpath "org.springframework.cloud:spring-cloud-contract-gradle-plugin:${springCloudContractVersion}"
+    }
 }
 
-apply plugin: 'io.spring.dependency-management'
+plugins {
+    id "com.google.cloud.tools.jib" version "1.6.1"
+}
 
-group = 'com.instantor.dap'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '1.8'
+apply plugin: 'groovy'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'spring-cloud-contract'
+apply plugin: 'maven-publish'
+apply plugin: 'idea'
+
+group = "com.instantor.dap"
+version = "0.0.1-SNAPSHOT"
+sourceCompatibility = "1.8"
 jib.to.image = "instantor/fullstacktest"
+
+configurations {
+    uiArchive
+}
 
 repositories {
     mavenCentral()
+    mavenLocal()
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter'
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    uiArchive group: "com.instantor.dap", name: "react-frontend", version: "0.1.0", ext: "zip"
+
+    compileOnly "org.projectlombok:lombok"
+    annotationProcessor "org.projectlombok:lombok"
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
+    
+    implementation "org.springframework.boot:spring-boot-starter"
+    implementation "org.springframework.boot:spring-boot-starter-web"
+    implementation ("org.springframework.boot:spring-boot-starter-data-redis") {
+        exclude group: "io.lettuce", module: "lettuce-core"
+    }
+    implementation "org.redisson:redisson-spring-boot-starter:${redissonVersion}"
+
+    testImplementation "org.codehaus.groovy:groovy:${groovyVersion}"
+    testImplementation "org.spockframework:spock-spring:${spockVersion}"
+    testImplementation "org.springframework.boot:spring-boot-starter-test"
+    testImplementation "com.github.kstyrc:embedded-redis:${embeddedRedisVersion}"
+    testImplementation "org.springframework.cloud:spring-cloud-starter-contract-verifier"
+    testImplementation "org.springframework.cloud:spring-cloud-contract-wiremock"
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}
+
+task unzipUi(type: Copy) {
+    configurations.uiArchive.asFileTree.each {
+        from(zipTree(it))
+    }
+    into "$buildDir/resources/main/static"
+}
+
+classes.dependsOn(unzipUi)
+
+contracts {
+    testFramework = "SPOCK"
+    baseClassForTests = "com.instantor.dap.springbootbackend.ContractSpecBase"
+    baseClassMappings {
+        baseClassMapping(".*character.*", "com.instantor.dap.springbootbackend.character.web.CharacterContractSpecBase")
+    }
+}
+
+sourceSets.test.groovy.srcDir new File(buildDir, 'generated-test-sources/contracts')
+idea {
+    module {
+        // Marks the already(!) added srcDir as "generated"
+        generatedSourceDirs += file('build/generated-test-sources/contracts')
+    }
 }

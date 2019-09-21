@@ -1,0 +1,30 @@
+{
+  "id" : "36ab3ee5-460f-44f6-8c24-32569fe60cca",
+  "name" : "api_planets_24",
+  "request" : {
+    "url" : "/api/planets/24/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Nal Hutta\",\"rotation_period\":\"87\",\"orbital_period\":\"413\",\"diameter\":\"12150\",\"climate\":\"temperate\",\"gravity\":\"1 standard\",\"terrain\":\"urban, oceans, swamps, bogs\",\"surface_water\":\"unknown\",\"population\":\"7000000000\",\"residents\":[\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/people/16/\"],\"films\":[],\"created\":\"2014-12-10T17:11:29.452000Z\",\"edited\":\"2014-12-20T20:58:18.460000Z\",\"url\":\"{{request.requestLine.scheme}}://{{request.requestLine.host}}:{{request.requestLine.port}}/api/planets/24/\"}",
+    "headers" : {
+      "Date" : "Sat, 21 Sep 2019 21:30:34 GMT",
+      "Content-Type" : "application/json",
+      "Connection" : "keep-alive",
+      "Set-Cookie" : "__cfduid=ddbb7c455de443b4b0b22c6b223f6aa721569101434; expires=Sun, 20-Sep-20 21:30:34 GMT; path=/; domain=.swapi.co; HttpOnly; Secure",
+      "Allow" : "GET, HEAD, OPTIONS",
+      "Vary" : "Accept, Cookie",
+      "X-Frame-Options" : "SAMEORIGIN",
+      "Etag" : "\"8ad0d5e60bb16849788b864bc5b0426e\"",
+      "Via" : "1.1 vegur",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "519f241b7a92d10d-TXL"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "36ab3ee5-460f-44f6-8c24-32569fe60cca",
+  "persistent" : true,
+  "insertionIndex" : 47
+}
